@@ -6,7 +6,7 @@
           revision="twelve" />
 
   <remote name="pixel-gitlab"
-          fetch="https://gitlab.com/PixelExperienceX"
+          fetch="https://gitlab.com/Fenix46"
           revision="twelve" />
 
   <remote name="pixel-devices"
