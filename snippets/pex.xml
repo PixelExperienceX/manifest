@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Project Specific for PixelExperienceX -->
+
+  <project path="build/make" name="build" remote="pex">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pex" />
+  
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pex" />
+
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pex" />
+
+  <project path="vendor/aosp" name="vendor_aosp" remote="pex" />
+
+</manifest>
